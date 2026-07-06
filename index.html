@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi — DeleteIt</title>
+  <meta name="description" content="Kebijakan privasi DeleteIt — aplikasi bersihkan galeri via swipe. Data diproses hanya di perangkat Anda.">
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #ff6b6b;
+      --mint: #4ecdc4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #1a2332 0%, #0f1419 100%);
+      border-bottom: 1px solid #2d3748;
+      padding: 2rem 1.25rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.75rem;
+      color: var(--accent);
+    }
+    header p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 2rem 0 0.75rem;
+      color: var(--mint);
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li { color: var(--text); }
+    .summary {
+      background: var(--surface);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #2d3748;
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+    }
+    th { background: var(--surface); color: var(--mint); }
+    a { color: var(--mint); }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid #2d3748;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DeleteIt</h1>
+    <p>Kebijakan Privasi · Terakhir diperbarui: 6 Juli 2026</p>
+  </header>
+
+  <main>
+    <div class="summary">
+      <strong>Ringkasan:</strong> DeleteIt memproses foto dan video <strong>hanya di perangkat Anda</strong>.
+      Kami tidak mengunggah, menyimpan, atau membagikan konten galeri Anda ke server kami.
+    </div>
+
+    <h2>Data yang kami proses</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Diproses?</th>
+          <th>Di mana</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Foto &amp; video di galeri</td>
+          <td>Ya, on-device</td>
+          <td>Hanya di ponsel Anda, untuk fitur swipe &amp; hapus</td>
+        </tr>
+        <tr>
+          <td>Riwayat review (keep/delete)</td>
+          <td>Ya, on-device</td>
+          <td>Database lokal aplikasi</td>
+        </tr>
+        <tr>
+          <td>Crash logs &amp; info perangkat</td>
+          <td>Ya (Firebase Crashlytics)</td>
+          <td>Google/Firebase — untuk stabilitas app</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Kami <strong>tidak</strong> mengumpulkan foto, video, lokasi GPS/EXIF, atau kontak Anda.</p>
+
+    <h2>Izin aplikasi</h2>
+    <ul>
+      <li><strong>Akses foto/video:</strong> untuk menampilkan dan menghapus media yang Anda pilih via swipe</li>
+      <li><strong>Internet:</strong> hanya untuk mengirim laporan crash anonim (Crashlytics)</li>
+    </ul>
+
+    <h2>Penghapusan data</h2>
+    <ul>
+      <li>Hapus foto: melalui alur review app → konfirmasi Android → Recently Deleted sistem (±30 hari)</li>
+      <li>Hapus data lokal app: Settings → Hapus data lokal</li>
+    </ul>
+
+    <h2>Anak-anak</h2>
+    <p>DeleteIt tidak ditujukan untuk anak di bawah 13 tahun.</p>
+
+    <h2>Perubahan kebijakan</h2>
+    <p>Kebijakan ini dapat diperbarui. Versi terbaru akan dipublikasikan di halaman ini.</p>
+
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:anton.prafanto@gmail.com">anton.prafanto@gmail.com</a></p>
+
+    <h2>Catatan UU PDP (Indonesia)</h2>
+    <p>DeleteIt tidak memproses data pribadi ke server operator. Pemrosesan media sepenuhnya di perangkat pengguna.</p>
+
+    <h2>Catatan GDPR</h2>
+    <p>Data terbatas pada crash diagnostics (Firebase). Bukan konten foto/video.</p>
+  </main>
+
+  <footer>
+    <p>DeleteIt · <a href="mailto:anton.prafanto@gmail.com">anton.prafanto@gmail.com</a></p>
+  </footer>
+</body>
+</html>
